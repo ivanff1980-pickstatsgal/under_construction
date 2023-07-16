@@ -6,6 +6,37 @@ body, html {
   margin: 0;
 }
 
+header {
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #eca023;
+}
+
 .bgimg {
   background-image: url('/PickStatsGal2.jpeg');
   height: 100%;
@@ -45,17 +76,20 @@ hr {
   width: 40%;
 }
 </style>
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>  
+</header>
 <body>
 
   <div class="bgimg2">
 
   </div>
-
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About Us</a>
-  <a href="contact.html">Contact Us</a>
-</nav>
 
 <div class="bgimg">
   <div class="topleft">
